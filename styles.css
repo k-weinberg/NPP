@@ -14,12 +14,12 @@ header {
   place-items: center;
   position: static;
   padding: 10px 20px 0px 20px;
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 /* div.bg-img, */
 section.textlist {
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(255, 255, 255, 0.9);
   /* height: 100%; */
   margin: 20px 20% 10% 20%;
   padding: 20px;

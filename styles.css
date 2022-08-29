@@ -110,13 +110,13 @@ img.logo {
   color: rgb(105, 164, 102);
 }
 
-.textlist a:focus {
+.textlist li a:focus {
   color: rgb(212, 255, 206);
   background: rgb(56, 56, 56);
   transition: 0.5s;
 }
 
-.textlist a:hover {
+.textlist li a:hover {
   color: rgb(212, 255, 206);
   background: rgb(56, 56, 56);
   transition: 0.5s;

@@ -10,7 +10,7 @@ body {
 }
 
 header {
-  margin: 10px 0px 0px 0px;
+  margin: 10px 15px 0px 15px;
   display: grid;
   place-items: center;
   position: static;
@@ -28,15 +28,15 @@ section.textlist {
   place-items: center;
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 200px) {
   section.textlist {
-    margin: 20px 0px 20px 0px;
+    margin: 20px 15px 20px 15px;
   }
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 800px) {
   section.textlist {
-    margin: 20px 20% 10% 20%;
+    margin: 30px 20% 10% 20%;
     min-width: 60%;
   }
 }
@@ -53,6 +53,7 @@ section.text {
 
 section.two {
   margin: 10px 20% 20px 20%;
+  min-width: 300px;
 }
 
 button {

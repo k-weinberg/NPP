@@ -21,11 +21,23 @@ header {
 section.textlist {
   background-color: rgba(255, 255, 255, 0.9);
   /* height: 100%; */
-  margin: 20px 20% 10% 20%;
   padding: 20px;
   /* position: static; */
   display: grid;
   place-items: center;
+}
+
+@media only screen and (min-width: 400px) {
+  section.textlist {
+    /* margin: 20px 10% 10% 10%; */
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  section.textlist {
+    margin: 20px 20% 10% 20%;
+    min-width: 60%;
+  }
 }
 
 section.text {

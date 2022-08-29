@@ -1,0 +1,126 @@
+body {
+  height: auto;
+  display: grid;
+  place-items: center;
+  margin: 0;
+  background-size: cover;
+  background-color: #70a572;
+  background-attachment: fixed;
+}
+
+header {
+  margin: 10px 0px 0px 0px;
+  display: grid;
+  place-items: center;
+  position: static;
+  padding: 10px 20px 0px 20px;
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+/* div.bg-img, */
+section.textlist {
+  background-color: rgba(255, 255, 255, 0.85);
+  /* height: 100%; */
+  margin: 20px 20% 10% 20%;
+  padding: 20px;
+  /* position: static; */
+  display: grid;
+  place-items: center;
+}
+
+section.text {
+  background-color: rgba(255, 255, 255, 0.85);
+  /* height: 100%; */
+  margin: 20px 20% 10% 20%;
+  padding: 20px;
+  /* position: static; */
+  display: grid;
+  place-items: center;
+}
+
+button {
+  /* position: fixed; */
+  padding: 10px 20px;
+}
+
+button:hover {
+  background-color: rgb(47, 78, 58);
+  color: white;
+  border-radius: 10px;
+  transition: 1s;
+  cursor: pointer;
+}
+
+ul.header {
+  display: inline-block;
+  /* position: absolute; */
+  top: 20%;
+  /* left: 50%; */
+  /* transform: translateX(-50%); */
+  list-style: none;
+  color: #111;
+  padding-inline-start: 0;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.header li {
+  float: left;
+  background-color: rgb(95, 161, 86);
+  width: 100px;
+  /* text-align: center; */
+}
+
+li.left {
+  border-right: 1px solid #bbb;
+}
+
+.header li a {
+  display: flex;
+  color: rgb(47, 47, 47);
+  /* text-align: center; */
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.header li a:hover {
+  background-color: rgb(47, 78, 58);
+  color: white;
+}
+
+.active {
+  background-color: #4caf50;
+}
+
+img.logo {
+  max-width: 100%;
+  max-height: 100px;
+  height: auto;
+  /* padding: 0px 20px 0px 20px; */
+  position: relative;
+}
+
+.textlist a {
+  color: rgb(105, 164, 102);
+}
+
+.textlist a:focus {
+  color: rgb(212, 255, 206);
+  background: rgb(56, 56, 56);
+  transition: 0.5s;
+}
+
+.textlist a:hover {
+  color: rgb(212, 255, 206);
+  background: rgb(56, 56, 56);
+  transition: 0.5s;
+}
+
+ul.resources {
+  list-style-type: circle;
+}
+
+.resource-list {
+  padding: 10px 0px 0px 10px;
+}

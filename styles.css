@@ -11,6 +11,7 @@ body {
 
 header {
   margin: 10px 15px 0px 15px;
+  border-radius: 10px;
   display: grid;
   place-items: center;
   position: static;
@@ -24,6 +25,7 @@ section.textlist {
   /* height: 100%; */
   padding: 25px;
   max-width: 800px;
+  border-radius: 10px;
   /* position: static; */
   display: grid;
   /* place-items: center; */
@@ -57,7 +59,7 @@ button:hover {
 }
 
 ul.header {
-  display: inline-block;
+  display: flex;
   /* position: absolute; */
   top: 20%;
   /* left: 50%; */
@@ -70,18 +72,24 @@ ul.header {
 }
 
 .header li {
-  float: left;
-  background-color: rgb(95, 161, 86);
+  display: list-item;
+  text-align: center;
   width: 100px;
+  background-color: rgb(95, 161, 86);
+  border-radius: 10px;
+  margin: 0px 15px;
+
   /* text-align: center; */
 }
 
-li.left {
-  border-right: 1px solid #bbb;
+.header li a:hover {
+  background-color: rgb(47, 78, 58);
+  color: white;
+  border-radius: 10px;
 }
-
 .header li a {
-  display: flex;
+  display: block;
+  margin: 0 auto;
   color: rgb(47, 47, 47);
   /* text-align: center; */
   padding: 10px 10px;
@@ -89,10 +97,6 @@ li.left {
 }
 
 /* Change the link color to #111 (black) on hover */
-.header li a:hover {
-  background-color: rgb(47, 78, 58);
-  color: white;
-}
 
 .active {
   background-color: #4caf50;

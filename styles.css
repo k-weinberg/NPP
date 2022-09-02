@@ -82,20 +82,6 @@ section.textlist {
   padding: 5px;
 }
 
-@media only screen and (min-device-width: 1600px) {
-  section.textlist {
-    margin: 20px 15px 20px 15px;
-  }
-}
-
-@media only screen and (min-device-width: 1000px) {
-  section.textlist {
-    margin: 20px 15px 20px 15px;
-    min-width: 60%;
-    /* max-width: 600px; */
-  }
-}
-
 /* @media screen and (min-width: 600px) {
   .hide-non-mobile {
     display: none;
@@ -117,6 +103,7 @@ button:hover {
 
 ul.header {
   display: flex;
+  /* flex-wrap: wrap; */
   /* position: absolute; */
   top: 20%;
   /* left: 50%; */
@@ -232,4 +219,52 @@ figcaption {
   filter: drop-shadow(0 0 2em rgb(153, 207, 157));
 
   /* background-color: black; */
+}
+
+@media only screen and (min-device-width: 1600px) {
+  section.textlist {
+    margin: 20px 15px 20px 15px;
+  }
+}
+
+@media only screen and (min-device-width: 1000px) {
+  section.textlist {
+    margin: 20px 15px 20px 15px;
+    min-width: 60%;
+    /* max-width: 600px; */
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  section.textlist {
+    max-width: 300px;
+    margin: none;
+  }
+  header {
+    max-width: 300px;
+  }
+  .header li {
+    margin: 0px 5px;
+    transition: 0s;
+  }
+  ul.header {
+    flex-direction: column;
+    gap: 10px;
+    /* margin: 10px 0px 0px 0px */
+  }
+  body {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .gallery-1 div {
+    max-width: 100px;
+    max-height: 66px;
+  }
+  .gallery-2 div {
+    max-width: 100px;
+    max-height: 150px;
+  }
+  img.logo {
+    max-width: 200px;
+  }
 }

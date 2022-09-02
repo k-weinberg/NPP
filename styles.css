@@ -9,6 +9,14 @@ body {
   max-width: 100vw;
 }
 
+/* body {
+  background: linear-gradient(
+    to bottom,
+    rgba(159, 159, 159, 0) 0%,
+    rgba(105, 105, 105, 0.65) 100%
+  );
+} */
+
 header {
   margin: 10px 15px 0px 15px;
   border-radius: 10px;
@@ -17,6 +25,7 @@ header {
   position: static;
   padding: 10px 20px 0px 20px;
   background-color: rgba(255, 255, 255, 0.9);
+  filter: drop-shadow(10px 10px 0.3em rgba(255, 255, 255, 0.6));
 }
 
 /* div.bg-img, */
@@ -28,6 +37,8 @@ section.textlist {
   border-radius: 10px;
   /* position: static; */
   display: grid;
+  filter: drop-shadow(10px 10px 0.3em rgba(255, 255, 255, 0.4));
+
   /* place-items: center; */
 }
 
@@ -78,6 +89,9 @@ ul.header {
   background-color: rgb(95, 161, 86);
   border-radius: 10px;
   margin: 0px 15px;
+  /* filter: drop-shadow(0 0 0.5em rgb(93, 150, 97)); */
+
+  transition: 6s;
 
   /* text-align: center; */
 }
@@ -123,6 +137,8 @@ img.logo {
 .textlist li a:hover {
   color: rgb(212, 255, 206);
   background: rgb(56, 56, 56);
+  border-radius: 4px;
+  padding: 8px;
   transition: 0.5s;
 }
 
@@ -132,4 +148,42 @@ ul.resources {
 
 .resource-list {
   padding: 10px 0px 0px 10px;
+}
+
+.caresheets {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+}
+
+.caresheets img {
+  max-width: 100px;
+  padding: 0px;
+}
+
+figcaption {
+  text-align: center;
+}
+
+.caresheets li a:hover {
+  color: rgb(105, 164, 102);
+  background: grey;
+  padding: 0px;
+  filter: drop-shadow(0 -10px 3rem rgb(142, 179, 158));
+  transition: 0.5s;
+  background: none;
+}
+
+.donateButton img {
+  max-width: 100px;
+  transition: 5s;
+  filter: drop-shadow(0 0 0.5em rgb(93, 150, 97));
+}
+
+.donateButton img:hover {
+  transition: 2s;
+  filter: drop-shadow(0 0 2em rgb(153, 207, 157));
+
+  /* background-color: black; */
 }

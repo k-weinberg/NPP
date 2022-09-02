@@ -267,4 +267,10 @@ figcaption {
   img.logo {
     max-width: 200px;
   }
+  .caresheets img {
+    max-width: 85px;
+  }
+  ul.caresheets {
+    justify-content: center;
+  }
 }

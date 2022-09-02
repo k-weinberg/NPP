@@ -273,6 +273,9 @@ figcaption {
   ul.caresheets {
     justify-content: center;
   }
+  .textlist {
+    margin: 10px 0px;
+  }
 }
 
 html,

@@ -257,12 +257,12 @@ figcaption {
     margin: 0 auto;
   }
   .gallery-1 div {
-    max-width: 100px;
-    max-height: 66px;
+    max-width: 115px;
+    max-height: 130px;
   }
   .gallery-2 div {
-    max-width: 100px;
-    max-height: 150px;
+    max-width: 120px;
+    max-height: 175px;
   }
   img.logo {
     max-width: 200px;

@@ -126,7 +126,6 @@ ul.header {
 .header li {
   display: list-item;
   text-align: center;
-  width: 100px;
   background-color: rgb(95, 161, 86);
   border-radius: 10px;
   margin: 0px 15px;
@@ -196,6 +195,11 @@ ul.resources {
   display: flex;
   flex-wrap: wrap;
   padding: 0px;
+  justify-content: center;
+}
+
+.caresheets figure {
+  margin: 0px;
 }
 
 .caresheets img {
